@@ -1,0 +1,18 @@
+[app]
+host = "APP_ADDRESS"
+port = APP_PORT
+
+[database]
+host = "DB_ADDRESS"
+port = DB_PORT
+username = "DB_USERNAME"
+password = "DB_PASSWORD"
+name = "DB_NAME"
+
+[redis]
+host = "REDIS_ADDRESS"
+port = REDIS_PORT
+password = "REDIS_PASSWORD"
+max_idle = REDIS_MAX_IDLE
+max_active = REDIS_MAX_ACTIVE
+KEY_VARIABLE = "KEY_NAME"
